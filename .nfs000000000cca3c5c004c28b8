@@ -1,5 +1,0 @@
-# jixia-publish — DSH patch 挂载（包安装后使用）
-# dsh --patch ./cordis.patch.yml
-- insert:
-    - id: jixia-publish
-      name: jixia-publish

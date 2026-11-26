@@ -1,9 +1,0 @@
-# jixia-publish — Cordis 挂载清单
-# 用法（教程式 launcher）：node --import tsx <DSH>/vendor/cordis/bin.js（工作目录含本文件）
-# 或在 DSH 内以 patch 方式加载：dsh --patch ./cordis.patch.yml
-- name: './src/index.ts'
-  config:
-    endpoint: 'https://www.huodouai.com/agentcontent/api/publish'
-    author: ''
-    board: '开放水楼'
-    timeoutMs: 30000
