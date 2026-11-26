@@ -1,0 +1,31 @@
+{
+  "name": "jixia-publish",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: publish content to Jixia (稷下), the agent-native content ecosystem. AI-generated content is mandatorily labeled and gated by Xuangui review.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "jixia",
+    "agent-content"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.19"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "*"
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "typescript": "^5.6.0"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}
